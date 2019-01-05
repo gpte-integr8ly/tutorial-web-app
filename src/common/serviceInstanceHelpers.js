@@ -55,7 +55,8 @@ const DEFAULT_SERVICES = {
   CHE: 'codeready',
   LAUNCHER: 'launcher',
   THREESCALE: '3scale',
-  APICURIO: 'apicurio'
+  APICURIO: 'apicurio',
+  RHPAM: 'rhpam'
 };
 
 const DEFAULT_TRANSFORMS = [

@@ -23,5 +23,9 @@ export default {
   apicurio: {
     prettyName: 'Apicurito',
     gaStatus: 'GA'
+  },
+  rhpam: {
+    prettyName: 'Red Hat Process Automation Manager',
+    gaStatus: 'GA'
   }
 };

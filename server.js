@@ -320,7 +320,16 @@ function getMockConfigData() {
             dashboardURL:'${process.env.OPENSHIFT_URL}',
             conditions: [{ status: 'True' }]
           }
-        }
+        },
+        {
+          spec: {
+            clusterServiceClassExternalName: 'rhpam'
+          },
+          status: {
+            dashboardURL:'${process.env.OPENSHIFT_URL}',
+            conditions: [{ status: 'True' }]
+          }
+        },
       ]
     }
   };`
