@@ -56,7 +56,7 @@ const DEFAULT_SERVICES = {
   LAUNCHER: 'launcher',
   THREESCALE: '3scale',
   APICURIO: 'apicurio',
-  RHPAM: 'rhpam'
+  RHPAM: 'rhpam-dev'
 };
 
 const DEFAULT_TRANSFORMS = [

@@ -323,7 +323,7 @@ function getMockConfigData() {
         },
         {
           spec: {
-            clusterServiceClassExternalName: 'rhpam'
+            clusterServiceClassExternalName: 'rhpam-dev'
           },
           status: {
             dashboardURL:'${process.env.OPENSHIFT_URL}',
